@@ -9,12 +9,12 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
     & ~ filters.edited
 )
 async def start_(client: Client, message: Message):
-    await message.reply_sticker("CAACAgUAAxkBAAIp9mBtwBBZGywWEmV-WC8gcMArjusuAAKMAgACTp1xV6m-mtC1YTfoHgQ")
+    await message.reply_sticker("CAACAgIAAxkBAAEDF6Rgrcl1kZNSrAABqO7L-kVd4tWK48MAAi0BAAIw1J0REIYEuS-exNEeBA")
     await message.reply_text(
-        f"""<b>Hi {message.from_user.first_name}!
-\nI can play music in your group's voice chat
-Maintained by @HEROGAMERS1 ❤
-\nTo add in your group contact us at @AwesomeSupport.
+        f"""<b> Hey,👋 {message.from_user.first_name}!
+\n Hello 👋 there! I can play music in voice chats of Telegeam Groups.
+I have a lot of cool feature that will amaze you!
+\nTo add in your group contact us at @slbotzone .
 \nHit /help list of available commands.
  </b>""",
       
@@ -23,23 +23,23 @@ Maintained by @HEROGAMERS1 ❤
             [
                 [
                     InlineKeyboardButton(
-                        "🌍 Music World", url="https://t.me/GIRLS_AND_BOYS_CHATTING",
+                        "🎧 Music World 🎧 ", url="https://t.me/supunmasl",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/AwesomeSupport"
+                        "👨‍👨‍👦 Group 👨‍👨‍👦 ", url="https://t.me/slbotzone"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/LaylaList"
+                        " 🌀 Channel 🌀 ", url="https://t.me/FreeNetSL"
                     ),
                     InlineKeyboardButton(
-                        "💾 Source code", url="https://github.com/QueenArzoo/VCPlayBot"
+                        "📦 Source code📦", url="https://github.com/supunmadurangasl/VCPlayBot"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/VCPlayBot?startgroup=true"
+                        "➕ Add To Your Group 🎙 ", url="https://t.me/vc_play_slbotzone_bot?startgroup=true"
                     ) 
                 ]
             ]
@@ -53,15 +53,15 @@ Maintained by @HEROGAMERS1 ❤
 )
 async def start(client: Client, message: Message):
     await message.reply_text(
-        "💁🏻‍♂️ Do you want to search for a YouTube video?",
+          "👨‍💻Do you want to search for a YouTube video?",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/LaylaList"
+                        " 🌀 Channel 🌀", url="https://t.me/FreeNetSL"
                     ),
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/AwesomeSupport"
+                        " 👨‍👨‍👦 Group 👨‍👨‍👦", url="https://t.me/slbotzone"
                     )
                 ],    
                 [    
@@ -83,7 +83,7 @@ async def start(client: Client, message: Message):
 )
 async def help(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>Hi {message.from_user.first_name}!
+        f"""<b>Hey,{message.from_user.first_name}!
 \n/play <song name> - play song you requested
 /dplay <song name> - play song you requested via deezer
 /splay <song name> - play song you requested via jio saavn
@@ -107,10 +107,10 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/LaylaList"
+                        " 🌀 Channel🌀 ", url="https://t.me/FreeNetSL"
                     ),
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/AwesomeSupport"
+                        "👨‍Group 👨‍", url="https://t.me/slbotzone"
                     )
                 ]
             ]
