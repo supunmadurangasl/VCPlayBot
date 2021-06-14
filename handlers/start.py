@@ -9,7 +9,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
     & ~ filters.edited
 )
 async def start_(client: Client, message: Message):
-    await message.reply_sticker("CAACAgIAAxkBAAEDF6Rgrcl1kZNSrAABqO7L-kVd4tWK48MAAi0BAAIw1J0REIYEuS-exNEeBA")
+    await message.reply_sticker("CAACAgIAAxkBAAEIoptgxsnCvC-AQIlhOaS8QYpIVL4zFgACZwAD29t-AAE93xTvYUeRnx4E")
     await message.reply_text(
         f"""<b> Hey,👋 {message.from_user.first_name}!
 \n Hello 👋 there! I can play music in voice chats of Telegeam Groups.
@@ -31,7 +31,7 @@ I have a lot of cool feature that will amaze you!
                         "👨‍👨‍👦 Group 👨‍👨‍👦 ", url="https://t.me/slbotzone"
                     ),
                     InlineKeyboardButton(
-                        " 🌀 Channel 🌀 ", url="https://t.me/FreeNetSL"
+                        " 🌀 Channel 🌀 ", url="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA?sub_confirmation=1"
                     ),
                     InlineKeyboardButton(
                         "📦 Source code📦", url="https://github.com/supunmadurangasl/VCPlayBot"
